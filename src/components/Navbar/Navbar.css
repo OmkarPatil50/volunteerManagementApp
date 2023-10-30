@@ -1,0 +1,30 @@
+.active {
+  border-bottom: 4px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 2.5px 20px;
+  background-color: var(--lynx-white-color);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.app-heading {
+  font-size: var(--m-size);
+  padding: 0 40px;
+  color: var(--primary-color);
+}
+
+.nav-item {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px;
+}
